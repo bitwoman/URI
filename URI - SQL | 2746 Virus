@@ -1,0 +1,1 @@
+select REPLACE(v.name, 'H1', 'X') from virus as v
