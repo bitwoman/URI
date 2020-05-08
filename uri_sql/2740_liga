@@ -1,0 +1,6 @@
+select concat('Podium: ',team) from league where position <= 3 
+
+union all 
+
+select concat('Demoted: ',team) from league, (select position from league order by position desc limit 2) as a 
+where a.position = league.position
