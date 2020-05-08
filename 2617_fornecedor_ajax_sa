@@ -1,3 +1,0 @@
-select p.name, pv.name from products as p
-inner join providers as pv on (pv.id = p.id_providers)
-where pv.name = 'Ajax SA'

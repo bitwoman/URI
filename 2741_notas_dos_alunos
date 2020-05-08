@@ -1,3 +1,0 @@
-select concat('Approved: ', s.name) as name, s.grade as grade from students as s
-where s.grade >= 7
-order by grade desc

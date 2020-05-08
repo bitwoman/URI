@@ -1,6 +1,0 @@
-select lf.name, round((lf.omega * 1.618), 3) as "Fator N" from life_registry as lf
-inner join dimensions as d on (lf.dimensions_id = d.id)
-where d.name in ('C875', 'C774')
-and lf.name like 'Richard%'
-order by 2
-

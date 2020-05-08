@@ -1,1 +1,0 @@
-select a.id, a.password, MD5(a.password) from account as a

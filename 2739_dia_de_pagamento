@@ -1,1 +1,0 @@
-select name, cast((extract(day from payday)) AS int) as day from loan
